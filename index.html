@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="shortcut icon" href="images/coding.png" />
+        <title>Hafiz is Coding</title>
+    </head>
+    <body onload="">
+        <!-- start navbar section -->
+        <nav class="navbar">
+            <input type="checkbox" id="check" class="checkbox" hidden />
+            <div class="hamburger-menu">
+                <label for="check" class="menu">
+                    <div class="menu-line menu-line-1"></div>
+                    <div class="menu-line menu-line-2"></div>
+                    <div class="menu-line menu-line-3"></div>
+                </label>
+            </div>
+            <div class="navbar-navigation">
+                <div class="navbar-navigation-left">
+                    <img
+                        src="images/nav-img-1.jpeg"
+                        class="left-img left-img-1"
+                    />
+                    <img
+                        src="images/nav-img-2.jpeg"
+                        class="left-img left-img-2"
+                    />
+                    <img
+                        src="images/nav-img-3.jpeg"
+                        class="left-img left-img-3"
+                    />
+                </div>
+                <div class="navbar-navigation-right">
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a
+                                id="home"
+                                href="#"
+                                class="nav-list-link active-item"
+                                >خانه</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a id="aboutUs" href="#" class="nav-list-link"
+                                >درباره ما</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a id="gallery" href="#" class="nav-list-link"
+                                >گالری تصایر</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a id="reserve" href="#" class="nav-list-link"
+                                >رزرو میز</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a id="services" href="#" class="nav-list-link"
+                                >سرویس ها</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a id="contactUs" href="#" class="nav-list-link"
+                                >تماس با ما</a
+                            >
+                        </li>
+                    </ul>
+                    <ul class="language-list">
+                        <li class="language-list-item">
+                            <a id="fa" href="#fa" class="language-list-link"
+                                >فارسی</a
+                            >
+                        </li>
+                        <li class="language-list-item">
+                            <a id="en" href="#en" class="language-list-link"
+                                >انگلیسی</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar section -->
+
+        <!-- start site header  -->
+        <header class="header">
+            <div class="brand">
+                <a href="#" class="logo">
+                    <i class="fa fa-utensils"></i>
+                </a>
+                <div>
+                    <h1 id="hRestaurant" class="main-name">رستوران من</h1>
+                    <p id="hFoods" class="sub-name">غذاهای لذیذ ما</p>
+                </div>
+            </div>
+            <div class="header-banner">
+                <h1 id="welcome" class="main-heading">خوش آمدید</h1>
+                <h3 id="foodTest" class="sub-heading">
+                    غذاهای ما را امتحان کنید
+                </h3>
+                <button id="reserveTable" type="button" class="main-btn">
+                    رزور میز
+                </button>
+            </div>
+        </header>
+        <!-- end site header  -->
+
+        <!-- start about us section -->
+        <section class="about-us">
+            <div class="about-us-left">
+                <img src="images/about-us-img.png" alt="درباره ما" />
+            </div>
+            <div class="about-us-right">
+                <h1 id="aboutRestaurant" class="main-heading">
+                    About restaurant
+                </h1>
+                <h3 id="aboutCooking" class="sub-heading">
+                    About Mohammad Ardokhani's cooking
+                </h3>
+                <div class="stars">
+                    <i class="fa fa-star-of-life star"></i>
+                    <i class="fa fa-star-of-life star"></i>
+                    <i class="fa fa-star-of-life star"></i>
+                </div>
+                <p id="description" class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rerum quo nulla laboriosam voluptatibus vel, accusantium similique, id unde repudiandae labore ad rem alias vero temporibus libero sequi itaque ut!
+                </p>
+                <div class="stars">
+                    <i class="fa fa-star-of-life star"></i>
+                    <i class="fa fa-star-of-life star"></i>
+                    <i class="fa fa-star-of-life star"></i>
+                </div>
+                <button id="moreInf" type="button" class="main-btn">
+                    More...
+                </button>
+            </div>
+        </section>
+        <!-- end about us section -->
+
+        <!-- start gallery section -->
+        <section class="gallery">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 id="foodName1" class="card-overlay-heading">Food</h1>
+                        <p id="foodPrice1"class="card-overlay-paragraph">price: 50$</p>
+                        <button id="foodOrder1" type="button" class="card-overlay-btn">
+                            Order
+                        </button>
+                    </div>
+                    <img src="images/gallery-img-1.jpeg" class="card-img" />
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 id="foodName2" class="card-overlay-heading">Food</h1>
+                        <p id="foodPrice2"class="card-overlay-paragraph">price: 50$</p>
+                        <button id="foodOrder2" type="button" class="card-overlay-btn">
+                            Order
+                        </button>
+                    </div>
+                    <img src="images/gallery-img-2.jpeg" class="card-img" />
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 id="foodName3" class="card-overlay-heading">Food</h1>
+                        <p id="foodPrice3"class="card-overlay-paragraph">price: 50$</p>
+                        <button id="foodOrder3" type="button" class="card-overlay-btn">
+                            Order
+                        </button>
+                    </div>
+                    <img src="images/gallery-img-3.jpeg" class="card-img" />
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 id="foodName4" class="card-overlay-heading">Food</h1>
+                        <p id="foodPrice4"class="card-overlay-paragraph">price: 50$</p>
+                        <button id="foodOrder4" type="button" class="card-overlay-btn">
+                            Order
+                        </button>
+                    </div>
+                    <img src="images/gallery-img-4.jpeg" class="card-img" />
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 id="foodName5" class="card-overlay-heading">Food</h1>
+                        <p id="foodPrice5"class="card-overlay-paragraph">price: 50$</p>
+                        <button id="foodOrder5" type="button" class="card-overlay-btn">
+                            Order
+                        </button>
+                    </div>
+                    <img src="images/gallery-img-5.jpeg" class="card-img" />
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 id="foodName6" class="card-overlay-heading">Food</h1>
+                        <p id="foodPrice6"class="card-overlay-paragraph">price: 50$</p>
+                        <button id="foodOrder6" type="button" class="card-overlay-btn">
+                            Order
+                        </button>
+                    </div>
+                    <img src="images/gallery-img-6.jpeg" class="card-img" />
+                </div>
+            </div>
+        </section>
+        <!-- end gallery section -->
+
+        <!-- start footer section -->
+        <footer class="footer">
+            <div class="footer-header">
+                <a href="#" class="logo">
+                    <i class="fa fa-utensils"></i>
+                </a>
+                <div>
+                    <h1 id="fRestaurant" class="main-name restaurant">My restaurant</h1>
+                    <p id="fFoods" class="sub-name foods">Our delicious food</p>
+                </div>
+            </div>
+            <div class="footer-social-media">
+                <ul class="social-media">
+                    <li class="social-media-item">
+                        <a href="#" class="social-media-link">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a href="#" class="social-media-link">
+                            <i class="fab fa-google-plus-square"></i>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a href="#" class="social-media-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a href="#" class="social-media-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p id="copyright" class="footer-copyright-paragraph">
+                    &copy; copy right. All rights reserved to Mohammas
+                </p>
+            </div>
+        </footer>
+        <!-- end footer section -->
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
