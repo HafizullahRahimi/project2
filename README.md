@@ -1,4 +1,4 @@
-## Project1
+## Project3
 
 Andra APL 
 
@@ -17,7 +17,7 @@ Andra APL
 - [x] .gitignore
 - [x] .vscode
 - [x] [HTML5](https://www.w3schools.com/html/html5_semantic_elements.asp "HTML5 Semantic Elements")
-- [ ] CSS3
+- [x] CSS3
 - [x] JavaScript
 - [x] SCSS
 
